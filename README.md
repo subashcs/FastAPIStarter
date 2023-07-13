@@ -22,6 +22,7 @@ To run the application in development mode use the following command.
 uvicorn main:app --reload
 
 ```
+To see list of available endpoints, you can simply open http://localhost:8000/docs.
 ## Database Setup
 To setup a postgres database on your device follow [the official guide](https://www.postgresql.org/download/). Once installed follow the following guide.
 
