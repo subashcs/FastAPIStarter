@@ -10,7 +10,7 @@ import os
 SCRIPT_DIR = os.path.dirname(os.path.relpath('../'))
 sys.path.append(os.path.dirname(SCRIPT_DIR))
 
-from app.orm.base import Base
+from app.orm import Base
 from app.database.dbengine import engine, get_db
 # This is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

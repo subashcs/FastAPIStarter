@@ -1,0 +1,6 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "autopep8"
+    },
+    "python.formatting.provider": "none"
+}

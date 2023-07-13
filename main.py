@@ -1,4 +1,4 @@
-from app import app
+from app.main import app
 
 def perform_migrations():
     # Perform database migrations using Alembic
